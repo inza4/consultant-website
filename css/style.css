@@ -415,6 +415,24 @@ nav {
   text-align: center;
 }
 
+/* Language switcher */
+.nav-lang {
+  color: #cbd5e1;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 4px;
+  transition: color 0.2s, border-color 0.2s;
+  white-space: nowrap;
+}
+
+.nav-lang:hover {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
 /* ===== Footer ===== */
 footer {
   background-color: var(--color-primary);
